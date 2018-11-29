@@ -159,7 +159,7 @@ public class Bank {
 	/*
 	 * Tests whether selected account exists
 	 */
-	public boolean existAccount(String accountid) {
+	public boolean existsAccount(String accountid) {
 		return accountlist.containsKey(accountid);
 	}
 }
